@@ -1,2 +1,8 @@
 github:
   metadata: false
+
+verbose: true
+incremental: true
+source: docs
+destination: docs/_site
+GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
