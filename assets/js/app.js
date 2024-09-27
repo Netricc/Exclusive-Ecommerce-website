@@ -46,3 +46,10 @@ let countdownFunction = setInterval(function () {
     ).innerHTML = `<h2 class="time-finish">${timeFinishedWord}</h2>`;
   }
 }, 1000);
+
+// save fonction
+
+function save() {
+  const image = document.querySelector(".save_image");
+  image.src = "assets/icons/heart small fill.png";
+}
