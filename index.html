@@ -18,13 +18,13 @@
 
     <!-- ========== Normalize file Style ========== -->
     <link rel="stylesheet" href="assets/css/normalize.css" />
-     <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <!-- ========== Main file Style ========== -->
     <link rel="stylesheet" href="assets/css/main.css" />
-
-
-
   </head>
   <body>
     <!-- ============= Ad Section ============= -->
@@ -50,7 +50,7 @@
     <header class="header" id="header"></header>
 
     <!-- main section -->
-     
+
     <main class="main" id="main">
       <!-- home section -->
       <section class="home" id="Home">
@@ -138,10 +138,10 @@
               <div class="shape"></div>
               <span>Today's</span>
             </div>
-      
+
             <div class="down-section">
               <h2>Flash Sales</h2>
-      
+
               <div class="content">
                 <div class="counter countdown">
                   <div class="time-section">
@@ -161,71 +161,245 @@
                     <span id="seconds">00</span>
                   </div>
                 </div>
-      
-                  <div class="arrows-slider">
-                    <div class="swiper-button-prev custom-prev">
-                      <i class="fa-solid fa-arrow-left"></i>
-                    </div>
-                    <div class="swiper-button-next custom-next">
-                      <i class="fa-solid fa-arrow-right"></i>
 
-                    </div>
-
-                  
+                <div class="arrows-slider">
+                  <div class="swiper-button-prev custom-prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </div>
+                  <div class="swiper-button-next custom-next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
                 </div>
               </div>
             </div>
           </header>
-      
+
           <div class="today_content swiper">
             <div class="box swiper-wrapper">
-              <article class="swiper-slide">card1</article>
-              
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
-              <article class="swiper-slide">card2</article>
+
+              <article class="swiper-slide today_card">
+                <div class="card_discound">-40%</div>
+                <div class="card_control">
+                  <div class="card_save" onclick="save(this.class)">
+                    <img
+                      class="save_image"
+                      src="assets/icons/heart small.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="quick_view">
+                    <img src="assets/icons/Quick View.png" alt="" />
+                  </div>
+                </div>
+                <div class="card_image">
+                  <img src="assets/images/g92-2-500x500 1.png" alt="" />
+                </div>
+
+                <div class="card_content">
+                  <h2 class="card_title">HAVIT HV-G92 Gamepad</h2>
+                  <p class="card_price">$120 <span>$160</span></p>
+                  <p class="card_review">
+                    <img src="assets/icons/Five star.png" alt="" />
+                    <span>(88)</span>
+                  </p>
+                </div>
+              </article>
+
+              <article class="swiper-slide today_card">
+                <div class="card_discound">-35%</div>
+                <div class="card_control">
+                  <div class="card_save" onclick="save(this.class)">
+                    <img
+                      class="save_image"
+                      src="assets/icons/heart small.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="quick_view">
+                    <img src="assets/icons/Quick View.png" alt="" />
+                  </div>
+                </div>
+                <div class="card_image">
+                  <img src="assets/images/ak-900-01-500x500 1.png" alt="" />
+                </div>
+
+                <div class="card_content">
+                  <h2 class="card_title">AK-900 Wired Keyboard</h2>
+                  <p class="card_price">$960 <span>$1160</span></p>
+                  <p class="card_review">
+                    <img src="assets/icons/Four Star.png" alt="" />
+                    <span>(75)</span>
+                  </p>
+                </div>
+              </article>
+
+              <article class="swiper-slide today_card">
+                <div class="card_discound">-30%</div>
+                <div class="card_control">
+                  <div class="card_save" onclick="save(this.class)">
+                    <img
+                      class="save_image"
+                      src="assets/icons/heart small.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="quick_view">
+                    <img src="assets/icons/Quick View.png" alt="" />
+                  </div>
+                </div>
+                <div class="card_image">
+                  <img src="assets/images/g27cq4-500x500 1.png" alt="" />
+                </div>
+
+                <div class="card_content">
+                  <h2 class="card_title">IPS LCD Gaming Monitor</h2>
+                  <p class="card_price">$370 <span>$400</span></p>
+                  <p class="card_review">
+                    <img src="assets/icons/Five star.png" alt="" />
+                    <span>(99)</span>
+                  </p>
+                </div>
+              </article>
+
+              <article class="swiper-slide today_card">
+                <div class="card_discound">-25%</div>
+                <div class="card_control">
+                  <div class="card_save" onclick="save(this.class)">
+                    
+                    <img
+                      class="save_image"
+                      src="assets/icons/heart small.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="quick_view">
+                    <img src="assets/icons/Quick View.png" alt="" />
+                  </div>
+                </div>
+                <div class="card_image">
+                  <img src="assets/images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png" alt="" />
+                </div>
+
+                <div class="card_content">
+                  <h2 class="card_title">S-Series Comfort Chair </h2>
+                  <p class="card_price">$375 <span>$400</span></p>
+                  <p class="card_review">
+                    <img src="assets/icons/Four Half Star.png" alt="" />
+                    <span>(99)</span>
+                  </p>
+                </div>
+              </article>
+
+              <article class="swiper-slide today_card">
+                <div class="card_discound">-35%</div>
+                <div class="card_control">
+                  <div class="card_save" onclick="save(this.class)">
+                    <img
+                      class="save_image"
+                      src="assets/icons/heart small.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="quick_view">
+                    <img src="assets/icons/Quick View.png" alt="" />
+                  </div>
+                </div>
+                <div class="card_image">
+                  <img src="assets/images/ak-900-01-500x500 1.png" alt="" />
+                </div>
+
+                <div class="card_content">
+                  <h2 class="card_title">AK-900 Wired Keyboard</h2>
+                  <p class="card_price">$960 <span>$1160</span></p>
+                  <p class="card_review">
+                    <img src="assets/icons/Four Star.png" alt="" />
+                    <span>(75)</span>
+                  </p>
+                </div>
+              </article>
+
+              <article class="swiper-slide today_card">
+                <div class="card_discound">-25%</div>
+                <div class="card_control">
+                  <div class="card_save" onclick="save(this.class)">
+                    
+                    <img
+                      class="save_image"
+                      src="assets/icons/heart small.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="quick_view">
+                    <img src="assets/icons/Quick View.png" alt="" />
+                  </div>
+                </div>
+                <div class="card_image">
+                  <img src="assets/images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png" alt="" />
+                </div>
+
+                <div class="card_content">
+                  <h2 class="card_title">S-Series Comfort Chair </h2>
+                  <p class="card_price">$375 <span>$400</span></p>
+                  <p class="card_review">
+                    <img src="assets/icons/Four Half Star.png" alt="" />
+                    <span>(99)</span>
+                  </p>
+                </div>
+              </article>
+
+              <article class="swiper-slide today_card">
+                <div class="card_discound">-40%</div>
+                <div class="card_control">
+                  <div class="card_save" onclick="save(this.class)">
+                    <img
+                      class="save_image"
+                      src="assets/icons/heart small.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="quick_view">
+                    <img src="assets/icons/Quick View.png" alt="" />
+                  </div>
+                </div>
+                <div class="card_image">
+                  <img src="assets/images/g92-2-500x500 1.png" alt="" />
+                </div>
+
+                <div class="card_content">
+                  <h2 class="card_title">HAVIT HV-G92 Gamepad</h2>
+                  <p class="card_price">$120 <span>$160</span></p>
+                  <p class="card_review">
+                    <img src="assets/icons/Five star.png" alt="" />
+                    <span>(88)</span>
+                  </p>
+                </div>
+              </article>
+
+
               <!-- Add more slides here -->
             </div>
           </div>
         </div>
       </div>
-      
     </main>
 
     <!-- ============= Javascript Files ============= -->
     <script src="assets/js/include.js"></script>
     <script src="assets/js/app.js"></script>
 
-     <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-var swiper = new Swiper(".today_content", {
-  slidesPerView: 'auto',  // Respect the slide's width in CSS
-  spaceBetween: 30,       // Space between slides (optional)
-  navigation: {
-    nextEl: '.custom-next',  // Right arrow
-    prevEl: '.custom-prev',  // Left arrow
-  },
-});
-
-
-
-
-
-  </script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".today_content", {
+        slidesPerView: "auto", // Respect the slide's width in CSS
+        spaceBetween: 30, // Space between slides (optional)
+        navigation: {
+          nextEl: ".custom-next", // Right arrow
+          prevEl: ".custom-prev", // Left arrow
+        },
+      });
+    </script>
   </body>
 </html>

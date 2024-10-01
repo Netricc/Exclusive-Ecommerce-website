@@ -319,7 +319,6 @@ button {
 .today .today_header .down-section {
     width: 100%;
     display: flex;
-    background: rgb(205, 205, 205);
     align-items: center;
 
 }
@@ -397,7 +396,7 @@ button {
 .swiper {
     min-width: 100%;
     height: 100%;
-  }
+}
 
 
 
@@ -407,7 +406,6 @@ button {
 .today .today_content .box article {
     height: 350px;
     width: 270px;
-    background: rgb(121, 98, 98);
     margin: 0 30px;
 }
 
@@ -418,15 +416,18 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Space between arrows */
-  }
-  
+    gap: 20px;
+    /* Space between arrows */
+}
 
 
-  
-  .custom-prev, .custom-next {
-    background-color: white;
-    border: 1px solid #e0e0e0;
+
+
+.custom-prev,
+.custom-next {
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    color: #000;
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -434,13 +435,103 @@ button {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-  }
-  
-  .custom-prev::after, .custom-next::after {
+}
+
+.custom-prev::after,
+.custom-next::after {
     font-size: 0px;
     color: rgb(255, 255, 255);
-  }
-  
-  /* You no longer need to rotate the left arrow */
-  
-  
+}
+
+/* today's card style START */
+
+.today .today_card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.today .card_discound {
+    position: absolute;
+}
+
+.today .card_control {
+    position: absolute;
+}
+
+.today .card_image {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5;
+}
+
+.today .card_content {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.today .card_content .card_title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.today .card_content .card_price {
+    margin: 18px 0;
+    font-size: 16px;
+    color: #DB4444;
+    font-weight: 500;
+}
+
+.today .card_content .card_price span {
+    color: #000000;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.today .card_content .card_review {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.today .card_discound {
+    top: 12px;
+    left: 12px;
+    width: 55px;
+    height: 26px;
+    background-color: #DB4444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #FAFAFA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.today .card_control {
+    top: 12px;
+    right: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.today .card_control div {
+    height: 34px;
+    width: 34px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* today's card style END */
