@@ -49,7 +49,7 @@ let countdownFunction = setInterval(function () {
 
 // save fonction
 
-function save() {
-  const image = document.querySelector(".save_image");
-  image.src = "assets/icons/heart small fill.png";
-}
+// function save() {
+//   const image = document.querySelector(".save_image");
+//   image.src = "assets/icons/heart small fill.png";
+// }

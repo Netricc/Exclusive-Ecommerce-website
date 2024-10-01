@@ -510,6 +510,7 @@ button {
     font-size: 12px;
     color: #FAFAFA;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .today .card_control {
@@ -529,6 +530,7 @@ button {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 
